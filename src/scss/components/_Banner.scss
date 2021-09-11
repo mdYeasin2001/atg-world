@@ -1,0 +1,17 @@
+.Banner__container{
+    height: 50vh;
+    background: linear-gradient(rgba(87, 87, 90, 0.50), rgba(87, 87, 90, 0.50)), url("../../assets/images/banner-bg.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    .back_arrow{
+        color: $white;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    button{
+        background: transparent;
+        border: 2px solid $white;
+        color: $white;
+        font-weight: bold;
+    }
+}

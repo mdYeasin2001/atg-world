@@ -1,0 +1,12 @@
+.PostCard__container{
+    .dropdown-toggle::after {
+        display: none;
+    }
+    .dropdown-toggle:focus {
+        box-shadow: none;
+    }
+    .dropdown-toggle{
+        background: transparent;
+        border: none;
+    }   
+}

@@ -1,0 +1,27 @@
+.CreateAccountModal__container {
+  .modal-dialog {
+    .form-control {
+      border-radius: 0;
+    }
+    .form-control:first-child {
+      border-top-left-radius: 0.25rem;
+    }
+    .form-control:last-child {
+      border-bottom-right-radius: 0.25rem;
+      border-bottom-left-radius: 0.25rem;
+    }
+    .input-group{
+        .form-control:last-child{
+            border-radius: 0;
+            border-top-right-radius: 0.25rem;
+        }
+    }
+  }
+}
+@media (min-width: 991px) {
+    .CreateAccountModal__container{
+        .create_account_btn{
+            width: 100%;
+        }
+    }
+}

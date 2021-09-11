@@ -1,0 +1,23 @@
+.SignInModal__container{
+    .modal-dialog {
+        .form-control {
+          border-radius: 0;
+        }
+        input.form-control:first-child {
+          border-top-left-radius: 0.25rem;
+          border-top-right-radius: 0.25rem;
+        }
+        input.form-control:last-child {
+          border-bottom-right-radius: 0.25rem;
+          border-bottom-left-radius: 0.25rem;
+        }
+    }
+}
+
+@media (min-width: 991px) {
+    .SignInModal__container{
+        .sing_in_btn{
+            width: 100%;
+        }
+    }
+}

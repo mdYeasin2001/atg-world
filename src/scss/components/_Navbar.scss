@@ -1,0 +1,25 @@
+.Navbar__container{
+    padding: 10px 40px;
+    background: $white;
+    .logo{
+        width: 180px;
+    }
+    .search_box{
+        position: relative;
+        .search_icon{
+            position: absolute;
+            top: 10px;
+            left: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            color: $gray;
+        }
+        input{
+            padding-left: 25px;
+        }
+    }
+    .shape{
+        width: 18px;
+        cursor: pointer;
+    }
+}
